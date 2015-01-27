@@ -6,7 +6,13 @@ sys.path.append('/usr/lib/python2.7/site-packages/')
 
 import dns.resolver
 '''
- calc.py: Response packet logger
+ test.py: Experimental Unbound module which forwards INSECURE queries to local
+          recursive resolver
+
+ Copyright 2015 Red Hat
+ 
+ This code is based on calc.py from Unbound Python examples.
+ The original license follows:
 
  Copyright (c) 2009, Zdenek Vasicek (vasicek AT fit.vutbr.cz)
                      Marek Vavrusa  (xvavru00 AT stud.fit.vutbr.cz)
